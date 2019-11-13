@@ -9,8 +9,6 @@ directory to git index
 changes to local repo
 * `git status` - display status of local repo
 
-
-
 ### Basic Branching
 * `git branch branchName` - Create local
 branch named `branchName`
@@ -19,3 +17,21 @@ branch `branchName`
 * `git branch` - Display local branches commands which we are on
 * `git checkout -b newBranch` - Create and
 check out branch `newBranch`
+
+### Merging
+* Add and commit local branch.
+* Push local branch to remote.
+* Pull `master` from remote into local branches
+```bash
+`git checkout newBranch`
+git pull origin master
+```
+* Resolve merge conflicts
+* Commit and push local branches
+   ```bash
+git add .
+git commit -m `Merging master with newBranch`
+git push origin newBranch
+```
+* On Github, create Pull Request
+* Teammates merge Pull Request into master
