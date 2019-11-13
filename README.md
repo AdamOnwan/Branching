@@ -15,4 +15,6 @@ changes to local repo
 branch named `branchName`
 * `git checkout branchName` - Move to
 branch `branchName`
-* `git branch` - Display local branches commandswhich we are on
+* `git branch` - Display local branches commands which we are on
+* `git checkout -b newBranch` - Create and
+check out branch `newBranch`
