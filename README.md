@@ -2,16 +2,17 @@
 
 ### Basic `git` commands
 
-# `git init` - create new local repo
-# `git add .` - add current working
+* `git init` - create new local repo
+* `git add .` - add current working
 directory to git index
-# `git commit -m message"` - commit
+* `git commit -m "message"` - commit
 changes to local repo
 
 
 
 ### Basic Branching
-# `git branch branchName` - Create local
+* `git branch branchName` - Create local
 branch named `branchName`
-# `git checkout branchName` - Move to
+* `git checkout branchName` - Move to
 branch `branchName`
+* `git branch` - Display local branches commandswhich we are on
